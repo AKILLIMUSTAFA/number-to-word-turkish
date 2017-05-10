@@ -12,9 +12,13 @@ public class NumberToTurkishWord {
 		System.out.println(convertNumberToWords(76));
 		System.out.println(convertNumberToWords(17));
 		System.out.println(convertNumberToWords(7));
+		
+
+
+
 	}
 	
-	
+
 	
 	private static final String[] lowNames = { "sıfır", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz",
 			"dokuz"};
@@ -27,7 +31,7 @@ public class NumberToTurkishWord {
 	
 	public static String convertNumberToWords(int n) {
 		if (n < 0) {
-			return "minus " + convertNumberToWords(-n);
+			return "eksi " + convertNumberToWords(-n);
 		}
 		if (n <= 999) {
 			return convert999(n);
