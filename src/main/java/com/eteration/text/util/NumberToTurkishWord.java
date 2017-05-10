@@ -22,7 +22,7 @@ public class NumberToTurkishWord {
 	private static final String[] tensNames = {	"on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen",
 			"doksan" };
 
-	private static final String[] bigNames = { "bin", "milyon", "trilyon" };
+	private static final String[] bigNames = { "bin", "milyon", "milyar" };
 
 	
 	public static String convertNumberToWords(int n) {
