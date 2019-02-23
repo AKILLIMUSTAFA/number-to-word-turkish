@@ -69,7 +69,7 @@ public class NumberToTurkishWord {
 	}
 
 	private static String convert99(int n) {
-		if (n < 11) {
+		if (n < 10) {
 			return lowNames[n];
 		}
 		String s = tensNames[n / 10 - 1];
